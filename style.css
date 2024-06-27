@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  .button {     position: 25px;     padding: 10px 20px;  border: none;     border-radius: 5px;
+           -webkit-tap-highlight-color: rgba(0,0,0,0);
+   background-image: url('https://github.com/NotRedbug/Heppy-/assets/168013587/5ac4bc4f-9b6c-40f3-a299-69fe55df54f5'); 
+      background-size: cover;
+           /* Adjust the background image size to cover the entire button */ 
+      background-repeat: no-repeat;
+      border-radius:5px;/* Prevent the background image from repeating */ 
+      width: 200px; /* Set the width of the button */ 
+      height: 300px; /* Set the height of the button */ 
+      color: black; /* Set the text color of the button */ 
+      border: none; /* Remove the button border */ 
+      text-align: right; /* Align the text to the right */;
+      /* Center the text within the button */ 
+      font-size: 18px; 
+      hover{opacity: 30;}
+        
+      cursor: pointer;
+    }
+    #count { font-size: 58px;
+            font-family: "Marcellus",serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+        margin-top: 10px
+      
+    }
+numbercount{
+    font-size:60px;
+    font-family: "Marcellus",serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+headingname{
+    font-size:35px;
+    text-align: center;
+    font-family: "Marcellus",serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  .filter{    background-image: url('https://github.com/NotRedbug/Heppy-/assets/168013587/b5a6f54c-f1ed-4bba-a340-97d9433cdd55');
+  
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:100%;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    opacity:1;
+         }
+    }

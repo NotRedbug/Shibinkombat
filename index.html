@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<title>shibkombat</title>
+</head>
+    <div class="filter"></div>
+<body>
+    <div style="background-color:;padding:20px;width:auto;height:100px;box-shadow:3px 0px 10px rgba(0,0,0,0.1);border-radius:">
+    <div> <headingname style="color:#f2f2f2;"> SHIBIN KOMBAT🐹 </headingname>
+    
+    </div>
+    
+    </div>
+    
+<div
+  style="border-color:#f2f2f2; padding: 20px; border-radius: 10px;text-align: center;top:40%;margin: 20px auto;height: 300px;min-width:240px; max-width: 800px;opactiy:0.8;
+    max-height: 700px;">
+    <div>
+<button class="floating-button" id="clickButton" onclick="incrementCount()"></button> 
+   </div>
+</div>
+<div id="count" style="text-align: center;margin: 20px auto;height: 100px;min-width:240px; max"> <numbercount>🪙 0 </numbercount> </div>
+    <!-- button content -->
+    <style>
+       .floating-button { left: 10%; bottom: 170px; position: fixed; width: 50px; height: 50px;
+           background-image: url('https://github.com/NotRedbug/Heppy-/assets/168013587/3cf82472-f59b-4001-8929-acab0ea0d178');
+    
+      background-size: cover; 
+      background-color: transparent;/* Adjust the background image size to cover the entire button */ 
+      background-repeat: no-repeat;
+      border-radius:5px;/* Prevent the background image from repeating */ 
+      width: 300px; /* Set the width of the button */ 
+      height: 300px; /* Set the height of the button */ 
+      color: black; /* Set the text color of the button */ 
+      border: none; /* Remove the button border */ 
+      text-align: right; /* Align the text to the right */;
+      /* Center the text within the button */ 
+      font-size: 18px; 
+      hoveropacity: 30;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        position: left;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        animation: floatButton 3s infinite;
+    }
+
+    @keyframes floatButton {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    .floating-button:active {
+        transform: translateY(0);
+        animation: clickButton 0.3s;
+    }
+
+    @keyframes clickButton {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(0.9);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+        
+    </style>
+    
+<script> 
+    let clickCount = 0;
+
+    function incrementCount() {
+        clickCount++;
+        document.getElementById('count').textContent = '🪙' + clickCount;
+        if (navigator.vibrate){navigator.vibrate([100]);}
+    }
+</script>
+</body>
+</html>
