@@ -19,10 +19,16 @@
   style="border-color:#f2f2f2; padding: 20px; border-radius: 10px;text-align: center;top:40%;margin: 20px auto;height: 300px;min-width:240px; max-width: 800px;opactiy:0.8;
     max-height: 700px;">
     <div>
-<button class="floating-button" id="clickButton" onclick="incrementCount()"></button> 
+<button class="floating-button" id="clickButton" onclick="audio1();incrementCount()"></button> 
    </div>
 </div>
 <div id="count" style="text-align: center;margin: 20px auto;height: 100px;min-width:240px; max"> <numbercount>🪙 0 </numbercount> </div>
+    <script> function audio1() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+      <audio id=audio> <source src="https://github.com/NotRedbug/Shibinkombat/assets/168013587/d3259702-df66-4453-ac56-5c826b576087" type="audio/mpeg"> </audio>
     <!-- button content -->
     <style>
        .floating-button { left: 10%; bottom: 200px; position: centre; width: 50px; height: 50px;
